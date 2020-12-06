@@ -14,7 +14,7 @@ public class SampleSelTest {
 	@Test
 	public void TestMethod() {
 		 //Launch firefox browser 
-		System.setProperty("webdriver.gecko.driver", "/Usr/local/bin/geckodriver");
+		System.setProperty("webdriver.gecko.driver", "/usr/local/bin/geckodriver");
 		driver = new FirefoxDriver();  
 	    
 	    //maximize the browser
