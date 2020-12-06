@@ -4,7 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.firefox.options import Options;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
@@ -16,8 +16,8 @@ public class SampleSelTest {
 	public void TestMethod() {
 		 //Launch firefox browser 
 		System.setProperty("webdriver.gecko.driver", "/usr/local/bin/geckodriver");
-		options = Options()
-		options.headless = True
+		options = Options();
+		options.headless = True;
 		driver = webdriver.Firefox(options=options);  
 		
 
